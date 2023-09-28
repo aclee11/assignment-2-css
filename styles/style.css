@@ -9,16 +9,21 @@ html {
 }
 
 .outer-cont {
+  display: flex;
   flex-direction: column;
-  padding-left: 200px;
-  padding-top: 50px;
+  align-items: center;
+}
+
+.inner-cont {
+  width: 80%;
 }
 
 h1 {
   font-size: x-large;
+  margin-right: auto;
 }
 
-.container {
+.card-container {
 background: white;
 width: 70%;
 height: 50%;
@@ -33,12 +38,11 @@ min-width: 33%;
 }
 
 .card {
-  width: 25%;
+  width: 200px;
   height: 200px;
   margin: 30px;
   padding: 30px;
   border-radius: 10%;
-  max-width: 300px;
   flex-direction: column;
   align-content: space-between;
   text-shadow: .2px 1px 1px gray;
